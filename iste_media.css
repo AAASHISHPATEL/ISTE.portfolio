@@ -1,0 +1,330 @@
+@media screen  and (max-width: 1024px){
+
+    .navbar{
+        /* margin: 10px 0px; */
+        width: 90%;
+    }
+    
+    .intro{
+        margin-top: 80px;
+        
+    }
+
+    .intro h4{
+        font-size: 70px;
+    }
+    .visit {
+        width: 200px;
+    }
+
+   .about h2{
+      font-size:35px;
+      margin-bottom: 10px;
+    }
+    #who {
+        margin-bottom: 4px;
+    }
+    .about{
+        padding: 50px 40px ;
+    }
+
+    .service{
+        margin: 0px;
+        padding: 70px 40px;
+    }
+    #font{
+        margin-bottom: 35px;
+        font-size: 35px;
+    }
+    .service_card{
+        flex-wrap: wrap;
+        height: 490px;
+        /* column-gap: 40px; */
+        justify-content: space-around;
+    }
+
+    .box{
+        margin: 0px;
+        width: 45%;
+    }
+
+    .portfolio,.pricing,.contact{
+        margin: 0px;
+        padding: 70px 40px;
+    }
+    .portfolio h6,.contact h6{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .img_container{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .img1,.img2,.img3 {
+        width: 32%;
+    }
+    .img_container img,.img_back1,.img_back2,.img_back3{
+        width: 100%;
+        height: 100%;
+        margin: 0px ;
+        padding: 0px;  
+    }
+
+    #Mypricing{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .pricing_card{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        row-gap: 10px;
+    }
+    .card1,.card2,.card3{
+        /* padding: 0px; */
+       width: 100%;
+       border-radius: 3%;
+    }
+    .pricing_card button{
+        width: 60%;
+
+    }
+    .footer_container{
+        margin: 0px 20px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    header{
+        height: 650px;
+    }
+
+    .navbar{
+        width: 100%;
+       justify-content: space-around;
+    }
+    .option{
+        gap: 15px;
+        width: 500px;
+    }
+    .logo{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .intro{
+        width: 310px;
+        margin-top: 50px;
+    }
+
+    .intro h4{
+        font-size: 60px;
+    }
+    
+    .about img{
+        width: 300px;
+        height: 300px;
+    }
+    .man{
+        width: 300px;
+        height: 300px;
+    }
+
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #comment {
+        width: 90%;
+    }
+    .write{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .navbar{
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-bottom: 0px;
+        margin: 0px;
+        column-gap: 10px;
+    }
+
+    .logo{
+        margin-top: 20px;
+    }
+    .option{
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: end; 
+        margin-top: 28px;  
+        /* display: none;  */
+    }
+    .action{
+        opacity: 0;
+    }
+    .option a{
+        font-size: 12px;
+    }
+    .nav-toggle{
+        margin-top: 30px;
+    }
+
+    .intro{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .intro h3{
+        font-size: 50px;
+    }
+    .intro h4{
+        font-size: 40px;
+    }
+    .intro p{
+        font-size: 20px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_content{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+
+    .img_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        row-gap: 20px;
+        /* height: 800px; */
+    }
+
+    .portfolio{
+        padding: 50px 10px;
+    }
+
+    .img1,.img2,.img3 {
+        width: 85%;
+        
+    }
+    .img1 img,.img2 img,.img3 img ,.img_back1,.img_back2,.img_back3{
+        width: 100%;
+        /* height: 300px; */
+        border-radius: 15px; 
+    }
+    .pricing_card{
+        width: 100%;
+        align-items: center;
+    }
+    .card1,.card2,.card3{
+        width: 95%;
+    }
+
+    .hire{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+        padding: 0px;
+    }
+    .but{
+        justify-content: center;
+    }
+
+    .contact_form{
+        width: 350px;
+        padding: 0px;
+        margin: 0px;
+        /* display: ; */
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .yourname,.email{
+        width: 99%;
+        display: flex;
+        justify-content: start;
+
+    }
+    .contact_form input{
+        width: 100%;
+    }
+    .write.comment textarea{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+    .socialMedia{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .copyright p{
+        width: 385px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .service_card{
+        height: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 100%;
+        /* row-gap: 10px; */
+        height: 200px;
+    }
+    .copyright {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media screen and (max-width:321px){
+
+    .navbar{
+        width: 310px;
+    }
+    .contact{
+        padding: 30px 20px;
+    }
+    .contact_form{
+        width: 100%;
+    }
+    .contact_form textarea{
+        height: 130px;
+    }
+
+}
