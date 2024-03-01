@@ -1,4 +1,4 @@
-@media screen  and (max-width: 1024px){
+ @media screen  and (max-width: 1024px){
 
     .navbar{
         /* margin: 10px 0px; */
@@ -97,7 +97,7 @@
         margin: 0px 20px;
     }
 
-}
+} 
 
 @media screen and (max-width:768px) {
 
@@ -150,7 +150,7 @@
     }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 679px) {
 
     .navbar{
         height: 350px;
